@@ -1,0 +1,41 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30vh;
+}
+
+.imageAboutSection {
+  object-fit: contain;
+  height: 30vh;
+  width: auto;
+}
+
+.paragraphAbout {
+  color: #333;
+  margin: 1rem 0;
+  line-height: 1.9;
+}
+
+@media (max-width: 480px) {
+  .about {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+  .imageAboutSection {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  
+}
+
+@media (min-width: 1201px) {
+
+}
