@@ -1,7 +1,8 @@
 import Hamburger from '../images/icon-hamburger.svg'
 import '../styles/Nav.css'
 
-const Nav = () => {
+const Nav = (props) => {
+
   return (
       <>
       <div className='nav'>
@@ -10,10 +11,10 @@ const Nav = () => {
             room
           </div>
           <ul>
-            <li><span>Home</span></li>
-            <li><span>Shop</span></li>
-            <li><span>About</span></li>
-            <li><span>Contact</span></li>
+            <li><span>{props.item}</span></li>
+            <li><span>{props.item1}</span></li>
+            <li><span>{props.item2}</span></li>
+            <li><span>{props.item3}</span></li>
           </ul>
         </div>
       </div>
@@ -23,5 +24,6 @@ const Nav = () => {
     </>
   )
 }
+
 
 export default Nav
