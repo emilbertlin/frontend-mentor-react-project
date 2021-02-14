@@ -14,7 +14,6 @@ import shopNowArrow from '../images/icon-arrow.svg'
 
 const Slide = (props) => {
   const [activeSlide, setActiveSlide] = useState(0)
-  let trackChangeActiveSlide = activeSlide
   const slides =  
   [
     {
